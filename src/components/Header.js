@@ -3,9 +3,10 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Header = () => {
+
     return (
-        <div>
-            <nav className="navbar navbar-expand-lg primary-bg-color">
+        <div className=''>
+            <nav className="z-100 position-absolute sticky-top w-100 navbar navbar-expand-lg primary-bg-color box-shadow">
                 <div className="container-fluid mx-lg-3">
                     <a className="navbar-brand fw-bolder text-white" href="#">Puffin</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +25,7 @@ const Header = () => {
                                 <a className="nav-link text-white" href="#">Contact</a>
                             </li>
                             <li className='mb-4 mb-lg-0 ms-lg-2'>
-                                <button type="button" className="btn btn-light primary-color rounded-pill">Order Now</button>   
+                                <button type="button" className="btn btn-light primary-color rounded-pill fw-semibold">Order Now</button>   
                             </li>
                         </ul>
                     </div>
